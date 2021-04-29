@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,24 +25,24 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="4072b9e3-5c10-4988-9306-0719e859109a">
-        <schema name="main" object-types="index, column, view, dataset trigger, constraint, table" />
+      <connection connection-id="30cb0ba8-40d2-43ad-a870-30e106a98109">
+        <schema name="main" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="4072b9e3-5c10-4988-9306-0719e859109a">
-      <console name="moive" type="STANDARD" schema="main" session="Main" />
+    <connection id="30cb0ba8-40d2-43ad-a870-30e106a98109">
+      <console name="Connection" type="STANDARD" schema="main" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="4072b9e3-5c10-4988-9306-0719e859109a" />
+    <connection id="30cb0ba8-40d2-43ad-a870-30e106a98109" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="4072b9e3-5c10-4988-9306-0719e859109a" dataset="main.movie250" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="30cb0ba8-40d2-43ad-a870-30e106a98109" dataset="main.movie250" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -70,9 +70,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="4072b9e3-5c10-4988-9306-0719e859109a" active="true">
+      <connection id="30cb0ba8-40d2-43ad-a870-30e106a98109" active="true">
         <database>
-          <name value="moive" />
+          <name value="Connection" />
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
@@ -85,7 +85,7 @@
           <port value="1234" />
           <database value="database" />
           <files>
-            <file path="D:\myCode\pachong\movie.db" schema="main" />
+            <file path="D:\myCode\douban250_flask\movie.db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
